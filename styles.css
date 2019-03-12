@@ -82,4 +82,18 @@ footer {
   grid-column-start: 1;
   grid-column-end: 4;
 }
+
+@media screen and (max-width: 690px) {
+  .title {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  header {
+    height: 80%;
+  }
 }
