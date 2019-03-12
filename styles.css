@@ -1,4 +1,42 @@
 body {
-  margin: 0px;
+  margin: 1px;
   font-family: "Open Sans";
+  text-align: center;
+  font-size: 30px;
+  color: #836a6a;
+  box-sizing: border-box;
+}
+
+header,
+footer,
+.logo,
+.title,
+.biography,
+.portfolio > div,
+.wofooForm {
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+}
+
+.mainField {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(245, 231, 231);
+}
+
+.portfolio {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2vw;
+}
+
+.portfolio > div {
+  background: gold;
+  padding: 0.5em;
+}
+
+header {
+  height: 80px;
 }
