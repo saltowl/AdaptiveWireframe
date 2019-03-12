@@ -17,6 +17,10 @@ footer,
   border-style: solid;
   border-width: 1px;
   background-color: white;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mainField {
